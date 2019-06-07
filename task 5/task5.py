@@ -2,7 +2,6 @@ while 1:
     month = input("enter the month name:")
     month1 = month.lower()
     months =["january","february","march","april","may","june","july","august","september","october","november","december"]
-    month31 = ["january", "march","may","july","august","october","december"]
     days = [31,28,31,30,31,30,31,31,30,31,30,31]
     if month1 in months:
         i = months.index(month1)
